@@ -18,10 +18,18 @@
     "Frontend",
     "Developer"
   ],
-  "author": "Roman Baran",
+  "author": {
+    "name": "Roman Baran",
+    "url": "https://www.baranroman.com/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RomanB96/CurriculumVitae/issues"
   },
-  "homepage": "https://github.com/RomanB96/CurriculumVitae#readme"
+  "homepage": "https://github.com/RomanB96/CurriculumVitae#readme",
+  "engines": {
+    "node": "6.10.0",
+    "npm": "3.10.10"
+  },
+  "private": true
 }
