@@ -31,5 +31,8 @@
     "node": "6.10.0",
     "npm": "3.10.10"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
