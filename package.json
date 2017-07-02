@@ -1,0 +1,27 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "The Roman Baran curriculum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanB96/CurriculumVitae.git"
+  },
+  "keywords": [
+    "Roman",
+    "Baran",
+    "Curriculum",
+    "Vitae",
+    "Frontend",
+    "Developer"
+  ],
+  "author": "Roman Baran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RomanB96/CurriculumVitae/issues"
+  },
+  "homepage": "https://github.com/RomanB96/CurriculumVitae#readme"
+}
