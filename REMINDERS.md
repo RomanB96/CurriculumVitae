@@ -1,7 +1,7 @@
 # Reminders
 
 - Add **meta Dublin Core**
-- Add **srcset** retina && **title attr**
+- Add **title attr**
 
 - Change **meta description**
 - Change **meta revised**
