@@ -51,6 +51,7 @@
                     <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
                 </svg>
             </button>
+            
             <ul>
                 <li><a href="#personalDetails">Personal details</a></li>
                 <li><a href="#aboutMe">About me</a></li>
@@ -74,26 +75,48 @@
             </header>
 
             <section>
+                <header>
+                    <h3>Profile picture</h3>
+                </header>
+
                 <picture>
-                    <source srcset="profile-min1440.jpg 1x, profile-min1440@2x.jpg 2x" media="(min-width: 1440px)">
-                    <source srcset="profile-min1024.jpg 1x, profile-min1024@2x.jpg 2x" media="(min-width: 1024px)">
-                    <source srcset="profile-min768.jpg 1x, profile-min768@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="profile-min320.jpg 1x, profile-min320@2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="profile-base.jpg" alt="Roman Baran profile picture.">
+                    <source srcset="img/profile-min1440.jpg 1x, img/profile-min1440@2x.jpg 2x" media="(min-width: 1440px)">
+                    <source srcset="img/profile-min1024.jpg 1x, img/profile-min1024@2x.jpg 2x" media="(min-width: 1024px)">
+                    <source srcset="img/profile-min768.jpg 1x, img/profile-min768@2x.jpg 2x" media="(min-width: 768px)">
+                    <source srcset="img/profile-min320.jpg 1x, img/profile-min320@2x.jpg 2x" media="(min-width: 320px)">
+                    <img src="img/profile-base.jpg" alt="Roman Baran profile picture.">
                 </picture>
             </section>
+            
             <section>
                 <header>
                     <h3>Front End Developer</h3>
                 </header>
 
                 <address>
-                    <a href="https://www.google.it/maps/place/Bologna/@44.4990968,11.2616453,12z/data=!3m1!4b1!4m5!3m4!1s0x477fd498e951c40b:0xa2e17c015ba49441!8m2!3d44.494887!4d11.3426163">
-                        Bologna (BO) - Italy
-                    </a>
-                    <p>Email</p>
-                    <a href="#">Linkedin</a>
-                    <a href="skype:live:roman_96_7?call">Skype</a>
+                    <p>
+                        I was born in <a href="https://www.google.it/maps/place/Stryj,+Oblast'+di+Leopoli,+Ucraina/@49.259006,23.8054843,13z/data=!3m1!4b1!4m5!3m4!1s0x473a6a1dcdab30d7:0xdb9765d0eca85d83!8m2!3d49.2656076!4d23.8431343">Stryj (Ukraine)</a> and now I live in <a href="https://www.google.it/maps/place/Bologna/@44.4990968,11.2616453,12z/data=!3m1!4b1!4m5!3m4!1s0x477fd498e951c40b:0xa2e17c015ba49441!8m2!3d44.494887!4d11.3426163"> Bologna (Italy)</a>.<br>
+                    </p>
+
+                    <p>Contact me:</p>
+                    <ul>
+                        <li>
+                            <a href = "mailto:baranroman96ATgmailDOTcom" 
+                                onclick = "this.href=this.href
+                                            .replace(/AT/,'&#64;')
+                                            .replace(/DOT/,'&#46;')"
+                                onmouseover = "this.href=this.href
+                                            .replace(/AT/,'&#64;')
+                                            .replace(/DOT/,'&#46;')"
+                                onfocus = "this.href=this.href
+                                            .replace(/AT/,'&#64;')
+                                            .replace(/DOT/,'&#46;')"
+                                >Email
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/roman-baran">Linkedin</a></li>
+                        <li><a href="skype:live:roman_96_7?call">Skype</a></li>
+                    </ul>
                 </address>
 
                 <button>
